@@ -1,0 +1,366 @@
+*{  margin: 0;
+    padding: 0;
+}  
+
+header{  width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(rgb(0, 0, 59), rgb(0, 0, 100));
+    z-index: 2;
+}
+
+nav{ width: 100%;
+    height: 100%;
+}
+
+main{ background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.322), rgba(0, 0, 255, 0.281));
+
+}
+
+footer{ background-image: linear-gradient(to top, rgb(0, 0, 59), rgb(0, 0, 100));
+        height: 50px;
+        margin-top: -50px;
+}
+
+    legend{ text-align: center;
+    color: black;
+    background-color: rgb(255, 163, 110);
+    margin:0;
+}
+
+div{    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+input{ margin-bottom: 1vh;
+    width: 100%;
+    padding: 0.1em;
+    border: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    resize: horizontal;
+}
+label{margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+iframe{block-size: 11em;
+    inline-size: 11em;
+}
+
+                    /*------------------------CLASES---------------------------*/
+.container{padding-bottom: 20px;
+}
+
+.estiloFieldset{background-color: rgba(0, 0, 151, 0.164);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2vh;
+    margin-top: 5vh;
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+    border:none;
+    font-weight: bold;
+    display: inline-block;
+    max-width: 60vw;
+    height: 980px;
+}
+
+.estiloTalles{ background-color: rgba(0, 0, 151, 0.164);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1vh 1vw 1vh 1vw;
+    border:solid;
+    border-width: thick;
+    border-color: rgba(0, 0, 59);
+    width: 40vw;
+    display: inline-block;
+
+}
+
+.tablaTalles{ display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.estiloLegend{ padding-top: 8vh;
+    padding-bottom: 3vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gridInicio{ height: 850px;
+    margin: 1vh 10vw 1vh 10vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 40% 10% 40%;
+    grid-template-areas: "a1 a1"
+                         "a2 a3"
+                         "a4 a4"
+                         "a6 a5";
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.gridIndumentaria{ display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 30% 20% 30%;
+    grid-template-areas: "a1"
+                         "b1"
+                         "a4"
+                         "b2";
+    justify-content: center;
+    align-content: space-evenly;
+    margin-top: 10vh;
+    padding: 1vh 1vw 1vh 1vw;
+}
+
+                    /*-------------------- ID's -------------------------*/
+
+#carouselExampleFade{  height: 600px;
+    width: 600px;
+    padding: 80px;
+    margin: auto;
+}
+
+#botonPrev{  width: 80px;
+    left: 50px;
+}
+
+#botonNext{  width: 80px;
+    right: 50px;
+}
+
+#logo{ height: 40px;
+        width: 40px;
+}
+
+#consulta{ margin-bottom: 5vh;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+   resize: horizontal;
+}
+#imagenLocal{grid-area: a3;
+}
+
+#imagenLocalInterior{grid-area: a6;
+}
+
+#divCalzado{  background-color: rgba(255, 166, 0, 0.404);
+    padding: 5px;
+}
+
+#divIndumentaria{ display:flex;
+}
+
+#accordionFlushExample{ border: thin solid rgba(0, 0, 151, 0.404);
+    display: block;
+    padding: 40px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: none;
+}
+#divMaps{ display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgba(123, 123, 255, 0.185);
+    padding: 20px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+                            /*---------------CARDS----------------*/
+
+.row{padding: 1em;}
+
+.card-body{ background-color: rgba(4, 0, 214, 0.253);
+}
+
+#jeans{
+    margin-top: 5vh;
+}
+
+
+
+
+                                   /*-------------------PANTALLAS CHICAS-------------------*/
+
+
+@media only screen and (max-width: 600px){
+
+    header{    width: 100%;
+        height: 40px;
+        position: sticky;
+        top: 0px;
+    }
+    footer{height: 50px;
+        margin-top: -55px;
+    }
+
+    a{font-size: 0.4em;
+    }
+
+    label{font-size: 0.35em;
+            width: 60%;  
+    }
+
+    iframe{block-size: 5em;
+        inline-size: 5em;
+    }
+
+    .estiloA{ font-size: 0.4em; 
+    }
+
+    .input{ font-size: 0.5em;
+    }
+    .container{padding-bottom: 50px;
+    }
+    
+    .gridInicio{grid-template-columns: 100%;
+                grid-template-rows: 3% 24% 28% 3% 16% 26%;
+                grid-template-areas:    "a1"
+                                        "a2"
+                                        "a3"
+                                        "a4"
+                                        "a5"
+                                        "a6";
+      
+                justify-items: center;
+                 align-items: center;
+                 height: 1450px;
+                 margin-bottom: 50px;
+    }
+
+    .estiloFieldset{height: 730px;}
+
+    .botonesFieldset{ margin:0.1em;
+        margin-top: 1em;
+    }
+    .carousel-inner{width: 100%;
+    height: 100%;}
+
+    #parrafoNosotros{ font-size: 0.7rem;
+    }
+    #parrafoIndumentaria{padding: 0px;
+        font-size: 1rem;
+    }
+    #parrafoCalzado{padding: 0px;
+        font-size: 1rem;
+    }
+    #carouselExampleFade{  height: 250px;
+        width: 250px;
+        padding: 0px 0px 70px 0px;
+        margin: auto;
+    }
+    #botonPrev{  width: 20px;
+        left: 10px;
+}
+    #botonNext{  width: 20px;
+        right: 10px;
+    }
+    #logo{ height: 35px;
+        width: 35px;
+    }
+    
+}
+
+
+                                    /*------------PANTALLAS GRANDES------------------*/
+
+
+@media only screen and (min-width: 992px){ 
+
+
+    h1{ font-size: 7em;
+    }
+    header{ height: 60px;
+    }
+    footer{ height: 50px;
+    }
+    li{font-size: 1.2em;
+    }
+    label{font-size: 1em;
+    }
+    legend{ font-size: 0.2em;
+    }
+    img{ justify-self: stretch;
+    }
+    iframe{block-size: 18em;
+        inline-size: 18em;
+    }
+    p{    font-size: 1.2em;
+    }
+   
+    .botonesFieldset{ font-size: 1.5em;}
+
+    .gridInicio{ height: 1400px;
+        grid-template-rows: 5% 45% 5% 45%;
+        grid-template-areas: "a1 a1"
+                             "a2 a3"
+                             "a4 a4"
+                             "a6 a5";
+        margin: 1vh 5vw 1vh 5vw;
+    }
+    .estiloFieldset{    padding: 5vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        margin-left: 20vw;
+        max-width: 60vw;
+        height: 1000px;
+    }
+    #botonPrev{ width: 90px;
+    }
+    #botonNext{  width: 90px;
+    }
+    #carouselExampleFade{ height: 700px;
+        width: 700px;
+    }
+    
+    #logo{ height: 50px;
+        width: 50px;
+    }
+    #parrafoIndumentaria{font-size: 1.5rem;
+    }
+    #parrafoCalzado{    font-size: 1.5rem;    
+    }
+}
+
+                                /*------------------PANTALLAS MUY GRANDES-----------------------*/
+
+                            
+@media only screen and (min-width: 1400px ){
+
+    header{height: 90px;
+    }
+    footer{height: 100px;
+    }
+    .gridInicio{height: 2100px;
+    }
+    .estiloFieldset{height: 1100px;
+    }
+    #tituloPrincipal{font-size: 7rem;
+    }
+    #tituloSecundario{font-size: 4rem;
+    }
+    #tituloTerciario{font-size: 4rem;
+    }
+    #parrafoPrincipal{font-size: 2rem;
+    }
+    #parrafoIndumentaria{font-size: 1.5rem;
+    }
+    #parrafoCalzado{    font-size: 1.5rem;    
+    }
+    #logo{ height: 80px;
+        width: 80px;
+    }
+    #carouselExampleFade{ height: 1000px;
+        width: 1000px;
+    }
+    #botonPrev{  width: 120px;
+    }
+    #botonNext{  width: 120px;
+    }
+}
