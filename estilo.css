@@ -23,7 +23,7 @@ footer{ background-image: linear-gradient(to top, rgb(0, 0, 59), rgb(0, 0, 100))
         margin-top: -40px;
 }
 
-    legend{ text-align: center;
+legend{ text-align: center;
     color: black;
     background-color: rgb(255, 163, 110);
     margin:0;
@@ -45,8 +45,9 @@ input{ margin-bottom: 1vh;
 label{margin-top: 1vh;
     margin-bottom: 1vh;
 }
-iframe{block-size: 11em;
-    inline-size: 11em;
+iframe{block-size: 15em;
+    inline-size: 15em;
+    padding: 10px;
 }
 
                     /*------------------------CLASES---------------------------*/
@@ -159,11 +160,10 @@ iframe{block-size: 11em;
 }
 #divMaps{ display: flex;
     justify-content:space-evenly;
-    align-items: center;
     background-color: rgba(123, 123, 255, 0.185);
-    padding: 20px;
-    width: 70%;
-    margin-left: 15%;
+    padding: 30px, 80px, 30px 80px;
+    width: 80%;
+    margin: auto;
 }
 #acordeon{ margin-top: 20px;
     padding-bottom: 100px;
@@ -194,21 +194,16 @@ iframe{block-size: 11em;
         top: 0px;
     }
     footer{height: 50px;
-        margin-top: -55px;
+        margin-top: -25px;
     }
 
-    a{font-size: 0.4em;
+    label{font-size: 0.7em; 
     }
 
-    label{font-size: 0.35em;
-            width: 60%;  
-    }
-
-    iframe{block-size: 5em;
-        inline-size: 5em;
-    }
-
-    .estiloA{ font-size: 0.4em; 
+    iframe{ block-size: 10em;
+        inline-size: 10em;
+        width: 90%;
+        padding: 10px;
     }
 
     .input{ font-size: 0.5em;
@@ -231,14 +226,18 @@ iframe{block-size: 11em;
                  margin-bottom: 50px;
     }
 
-    .estiloFieldset{height: 730px;}
-
-    .botonesFieldset{ margin:0.1em;
-        margin-top: 1em;
+    .estiloFieldset{height: 730px;
     }
     .carousel-inner{width: 100%;
-    height: 100%;}
-
+    height: 100%;
+    }
+    #divMaps{ padding-right: 20vw;
+        padding-left: 20vw;
+    }
+    #botonFieldset{ font-size: 1.2em;
+    } 
+    #item{ font-size: 1.4em;
+    }
     #parrafoNosotros{ font-size: 0.7rem;
     }
     #parrafoIndumentaria{padding: 0px;
@@ -315,9 +314,10 @@ iframe{block-size: 11em;
     #carouselExampleFade{ height: 700px;
         width: 700px;
     }
-    
     #logo{ height: 50px;
         width: 50px;
+    }
+    #divMaps{ width: 70%;
     }
     #parrafoIndumentaria{font-size: 1.5rem;
     }
@@ -334,9 +334,14 @@ iframe{block-size: 11em;
     }
     footer{height: 100px;
     }
+    iframe{block-size: 22em;
+        inline-size: 22em;
+    }
     .gridInicio{height: 2100px;
     }
     .estiloFieldset{height: 1100px;
+    }
+    #divMaps{ width: 70%;
     }
     #tituloPrincipal{font-size: 7rem;
     }
