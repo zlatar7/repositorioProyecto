@@ -1,0 +1,84 @@
+.ulNavegador {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  list-style-type: none; }
+  .ulNavegador__item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-size: 1.8vw; }
+
+.titulo {
+  color: #000097;
+  font-family: 'Lusitana', serif;
+  font-size: 3.4em;
+  text-align: center; }
+  .titulo--principal {
+    color: #00003b;
+    font-size: 5rem;
+    word-spacing: 3vw;
+    letter-spacing: 1vw; }
+  .titulo--secundario {
+    grid-area: a1;
+    font-size: 2rem;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    margin-left: 1vw; }
+  .titulo--terciario {
+    grid-area: a4;
+    font-size: 2rem;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    margin-left: 1vw; }
+  .titulo--sm {
+    font-size: 2.5em; }
+
+.parrafo {
+  color: #000097;
+  font-size: 1.1rem;
+  font-family: 'Overlock', cursive;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-right: 3vw;
+  margin-left: 3vw; }
+  .parrafo--footer {
+    color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8vh; }
+  .parrafo--indumentaria {
+    grid-area: a2;
+    margin: 0%;
+    padding-right: 0.8em;
+    font-size: 1rem; }
+  .parrafo--calzado {
+    grid-area: a5;
+    margin: 0%;
+    padding-left: 0.8em;
+    font-size: 1rem; }
+  .parrafo--principal {
+    color: #00003b;
+    font-family: 'Merriweather' serif;
+    font-size: 1rem;
+    margin-bottom: 50px; }
+
+.boton {
+  font-size: 1.5em; }
+  .boton__fieldset {
+    background-color: #0095eb;
+    color: white;
+    margin-top: 1em; }
+  .boton--sm {
+    font-size: 0.5em; }
+  .boton--xl {
+    font-size: 2em; }
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Merriweather', serif; }

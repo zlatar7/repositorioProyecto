@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ubicacion en la ciudad de Chacabuco provincia de Buenos Aires. Dos locales, Ituzaingo 100 y Avenida Alsina 60">
+    <meta name="keywords" content="Chacabuco, contacto, locales, sucursales, redes sociales, instagram, facebook">
+    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href="../sass-bem/css/prueba.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Merriweather:wght@900&family=Overlock&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>NOSOTROS</title>
+</head>
+<body>
+    <header>
+                            <!------ MENÚ DE NAVEGACIÓN  ---->
+
+        <nav>
+            <ul class="ulNavegador">
+                <li  class="ulNavegador__item"><img src="../archivos multimedia/logo.png" alt="logo" id="logo"></li>
+                <li  class="ulNavegador__item"><a id="item" class="link" href="../index.html">INICIO</a></li>
+                <li  class="ulNavegador__item"><a id="item" class="link" href="indumentaria.html">INDUMENTARIA</a></li>
+                <li  class="ulNavegador__item"><a id="item" class="link" href="calzado.html">CALZADO</a></li>
+                <li  class="ulNavegador__item"><a id="item" class="link" href="nosotros.html">NOSOTROS</a></li>
+                <li  class="ulNavegador__item"><a id="item" class="link" href="ayuda.html">AYUDA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo titulo--sm" data-aos="zoom-in-down">ACERCA DE NOSOTROS</h1>
+        <p class="parrafo"  id="parrafoNosotros" data-aos="zoom-in-down">En el año 1986 comenzamos con esta distinguida empresa en nuestro local ubicado en la calle Ituzaingó 100, Chacabuco. Desde allí fuimos ofreciendo a los clientes la atención, la amabilidad, y la experiencia satisfactoria de contar con las últimas novedades del rubro indumentaria.
+           La incorporación de calzado y de accesorios no tardó en llegar, la expansión fue inminente sumado nuestra oportuna selección de productos. Esto hizo que años mas tarde se agrandara nuestra reputación de la mano con los negocios, tal fue la demostración de elección y fidelidad por parte de ellos que nos llevó en el año 1996 a inaugurar un segundo local en la avenida Alsina 60, Chacabuco.
+            Desde ese entonces nunca dejamos de aprender y crecer siempre manteniendo las novedades de todo lo denominado "moda". En la ciudad somos sinónimos de calidad y atención.</p>
+            
+                       <!----- GOOGLE MAPS --->
+
+        <div id="divMaps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1340.9516155699237!2d-60.46704527463027!3d-34.63466768856335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6e164fe2e8b0cd5!2sAzul%20-%20Azul!5e0!3m2!1ses-419!2sar!4v1632260941161!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.9827394854656!2d-60.46975094635483!3d-34.643916650109304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d926a81aa195e81!2sAzul%20azul!5e0!3m2!1ses-419!2sar!4v1632261075178!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
+                    <!----- FORMULARIO DE CONTACTO -->
+
+            <fieldset class="estiloFieldset">
+              <legend  class="input">FORMULARIO DE CONTACTO</legend>
+              <div class="container-fluid container-danger">
+                  <form action="">
+                    <label for="name">Nombre y Apellido:</label>
+                    <input type="text" id="name" placeholder="Ingrese su nombre y apellido" class="input">
+        
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" id="tel" placeholder="Ingrese su teléfono" class="input">
+        
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" placeholder="nombre@ejemplo.com" class="input">
+        
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" placeholder="Calle N°123" class="input">
+        
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" placeholder="Ingrese ciudad" class="input">
+        
+                    <label for="provincias">Seleccione su Provincia:</label>
+                    <select name="nombres" id="provincias"  class="input">
+                        <option value="">Buenos Aires</option>
+                        <option value="">C.A.B.A</option>
+                        <option value="">Catamarca</option>
+                        <option value="">Chaco</option>
+                        <option value="">Chubut</option>
+                        <option value="">Córdoba</option>
+                        <option value="">Corrientes</option>
+                        <option value="">Entre Rios</option>
+                        <option value="">Formosa</option>
+                        <option value="">Jujuy</option>
+                        <option value="">La Pampa</option>
+                        <option value="">La Rioja</option>
+                        <option value="">Mendoza</option>
+                        <option value="">Misiones</option>
+                        <option value="">Neuquen</option>
+                        <option value="">Rio Negro</option>
+                        <option value="">Salta</option>
+                        <option value="">San Juan</option>
+                        <option value="">San Luis</option>
+                        <option value="">Santa Cruz</option>
+                        <option value="">Santa Fe</option>
+                        <option value="">Santiago del Estero</option>
+                        <option value="">Tierra del Fuego</option>
+                        <option value="">Tucumán</option>
+                    </select>
+  
+                    <div class="form-check form-switch">
+                      <label  class="form-check-label" for="acepta">Recibir nuestras novedades</label>
+                      <input  class="form-check-input" type="checkbox" id="acepta" class="input" class="input">
+                  </div>
+  
+        
+                    <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Escriba su consulta..."  class="input"></textarea>
+        
+                    <input class="boton boton__fieldset" id="botonFieldset" type="submit" value="Enviar"  class="input">
+                    <input class="boton boton__fieldset" id="botonFieldset" type="reset" value="Limpiar"  class="input">
+        
+                  </form>
+                </div>
+  
+          </fieldset>
+            
+
+    </main>
+    <footer>
+        <p class="parrafo parrafo--footer">Ubicación: Ituzaingó 100, Av. Alsina 60, Chacabuco provincia de Bs. As</p> 
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+</body>
+</html>
